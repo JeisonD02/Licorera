@@ -1,13 +1,45 @@
 
--- Este es el Encabezado --
-
 .logo_licorera {
-    width: 110px;
-    height: 80px;
+    width: 90px;
+    height: 60px;
+    align-items: left;
+}
+
+nav {
+    background-color: #000000;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color : #e2e8f0;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f8bb38;
 }
 
 
--- Este es el Catalogo --
+.welcome {
+    text-align: center;
+    margin: 50px 0;
+}
+
+
+
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .imagen_licor {
     width: 100px;
@@ -17,7 +49,7 @@
 
 .product_card {
     width: 200px;
-    height: 200px;
+    height: auto;
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
@@ -26,9 +58,46 @@
     display: inline-block;
 }
 
+.product_card img {
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+
+.product_card h4 {
+    margin: 10px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.product_card p {
+    margin: 5px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.product_card span {
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+}
 
 
--- Estos son los Formularios --
+
+.about_us {
+    text-align: center;
+    margin: 50px 0;
+    width: auto 80%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+
 
 .contact_form {
     width: 400px;
@@ -83,7 +152,6 @@
 }
 
 
--- Este es el pie de p
 
 .footer {
     background-color: #333;
