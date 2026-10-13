@@ -1,7 +1,13 @@
+
+-- Este es el Encabezado --
+
 .logo_licorera {
     width: 110px;
     height: 80px;
 }
+
+
+-- Este es el Catalogo --
 
 .imagen_licor {
     width: 100px;
@@ -11,23 +17,29 @@
 
 .product_card {
     width: 200px;
-    height: 300px;
+    height: 200px;
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
+    display: inline-block;
 }
 
+
+
+-- Estos son los Formularios --
+
 .contact_form {
-    width: 300px;
-    height: 600px;
+    width: 400px;
+    height: auto;
     border: 1px solid #ccc;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 30px;
 }
+
 
 .form_title {
     font-size: 18px;
@@ -36,9 +48,27 @@
     text-align: center;
 }
 
+.form_description {
+    padding: 5px;
+}
+
+.form_input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 .form_group {
     margin-bottom: 15px;
     text-align: center;
+}
+
+.form_label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .form_button {
@@ -51,6 +81,9 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+
+-- Este es el pie de p
 
 .footer {
     background-color: #333;
